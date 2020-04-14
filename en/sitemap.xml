@@ -3,44 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lihao-id.github.io/categories/</loc>
+    <loc>https://lihao-id.github.io/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://lihao-id.github.io/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="https://lihao-id.github.io/categories/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lihao-id.github.io/en/categories/"
+                />
   </url>
   
   <url>
-    <loc>https://lihao-id.github.io/</loc>
+    <loc>https://lihao-id.github.io/en/moods/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://lihao-id.github.io/zh/"
+                href="https://lihao-id.github.io/moods/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://lihao-id.github.io/en/moods/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lihao-id.github.io/en/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://lihao-id.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lihao-id.github.io/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lihao-id.github.io/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
                 href="https://lihao-id.github.io/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://lihao-id.github.io/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://lihao-id.github.io/zh/tags/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://lihao-id.github.io/tags/"
+                href="https://lihao-id.github.io/en/"
                 />
   </url>
   

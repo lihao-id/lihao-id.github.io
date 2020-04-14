@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Threads on 时间不语</title>
+    <link>https://lihao-id.github.io/thread/</link>
+    <description>Recent content in Threads on 时间不语</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 12 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lihao-id.github.io/thread/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>生产者消费者</title>
+      <link>https://lihao-id.github.io/thread/%E7%94%9F%E4%BA%A7%E8%80%85%E6%B6%88%E8%B4%B9%E8%80%85/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lihao-id.github.io/thread/%E7%94%9F%E4%BA%A7%E8%80%85%E6%B6%88%E8%B4%B9%E8%80%85/</guid>
+      <description>容器对象 import lombok.Getter; import lombok.Setter; /** * @author haoli * @create 2020-04-12 */ public class Value { @Getter @Setter private static Integer value; } 生产者对象 import java.util.Random; /** * @author haoli * @create 2020-04-12 */ public class Producer { private Object lock; public Producer(Object lock) { this.lock = lock; } public void set(){ try { synchronized (lock){ //while value 不为null 等待  while (Value.getValue() != null){ lock.wait(); } //接受到通知后放入一个 通知所有线程  Random random = new Random(); Integer value = random.</description>
+    </item>
+    
+  </channel>
+</rss>
